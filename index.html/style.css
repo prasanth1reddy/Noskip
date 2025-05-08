@@ -1,0 +1,44 @@
+.CSK li::marker {
+    color: yellow;
+  }
+  
+  .RCB li::marker {
+    color: red;
+  }
+  
+  .LSG li::marker {
+    color: purple;
+  }
+  
+  .RR li::marker {
+    color: pink;
+  }
+  
+  .SRH li::marker {
+    color: darkorange;
+  }
+  
+  .DC li::marker {
+    color: navy;
+  }
+  
+  .KKR li::marker {
+    color: gold;
+  }
+  
+  .MI li::marker {
+    color: blue;
+  }
+  
+  .GT li::marker {
+    color: teal;
+  }
+  
+  .PBKS li::marker {
+    color: maroon;
+  }
+  
+
+  a{
+    
+  }
