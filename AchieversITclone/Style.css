@@ -80,4 +80,15 @@ body {
     background-color: #f2f2f2;
   }
 
+.carousel-item active{
+  position: relative;
+}
+.para{
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
 
