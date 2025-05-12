@@ -66,4 +66,31 @@ body {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+
+.custom-box {
+  width: 300px;
+  height: 150px;
+  background-color:whitesmoke;
+  border: 2px solid #333;
+  padding: 5%;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Indicates the element is clickable */
+
+
+}
+  @keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+:contentReference[oaicite:6]{index=6}
+
+:contentReference[oaicite:8]{index=8}
+  :contentReference[oaicite:9]{index=9}
+
+
   
