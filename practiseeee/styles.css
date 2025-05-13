@@ -11,6 +11,8 @@
   cursor: pointer; /* Indicates the element is clickable
  */
 
+
+/* day-2 start
 body {
       display: flex;
       justify-content: center;
@@ -43,7 +45,7 @@ div[class^="card"]:hover {
 }
 
 /* Specific Card Colors */
-.card1 {
+ /* .card1 {
     background-color: #4CAF50;
 }
 
@@ -55,16 +57,128 @@ div[class^="card"]:hover {
     background-color: #FF9800;
 }
 
-.card4 {
+.card4 { 
     background-color: #9C27B0;
- }
+ } */
 
 /* Paragraph styling */
-div[class^="card"] p {
+/* div[class^="card"] p {
     margin: 10px 0 0;
     font-size: 16px;
+}     Day-2 End */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+/* 
+body{
+    background-color: rgb(243, 243, 184);
+    display: flex;
 }
 
+.apj{
+    height:auto;
+    width:50%;
+    position: relative;
+}
+
+.flower{
+    height: 250px;
+    width:200px;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transform: scaleX(-1);
+}
+
+.list1 li::marker{
+    content: "#";
+    
+} */
+
+
+
+                                                           /* Selectors Starts Here */
+/* 
+/* 1. Basic Selectors Starts here */
+
+/* ->Universe selector:Is denoted with(* Hashtic) it select the  over all body and design body  */
+*{
+    background-color: yellowgreen;
+    color: deeppink;
+}
+
+/* -> Tag Selector : is denoted with a tag like p{},h1{} we can perform selectors with onlY tags */
+h1,p{
+  background-color: blue;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px;
+  text-align:center;
+  font-size: 30px;
+}
+
+
+/* ->ID Selector : is denoted With(# hash) it is used to some with same name we can select particular one in that we can use ID selector  */
+#para{
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: black; */
+    font-size: 30px;
+}
+
+/* -> Class Selector: is denoted with(. Dot)   */
+.reddy{
+    color:red;
+    font-size: 199px;
+
+}
+
+/* ->Attributes:is denoted with([]{} Square Braces)  */
+/* ->one is start with :[Attribute]  */
+[alt]{
+    height: 200px;
+    width: 150px;
+}
+/* -> one is start with : */
+[id]{
+    height: 150px;
+    width: 150;
+}
+
+
+/* -> one is start with :tagname[attributename="attributevalue"] */
+p[id="para"]{
+    height: 150px;
+}
+/* -> one is start with :tagname[attributename] */
+p[class]{
+    height: 140px;
+}
+/* -> one is start with : tagname[attributename$(ends With)="Attributevalue] */
+img[src$="="]{
+    height: 400px;
+}
+/* -> one is start with : tagname[attributename^(starts With)="Attributevalue] */
+img[src^="https"]{
+    height: 400px;
+}
+/* -> one is start with : tagname[attributename~(middle words With)="Attributevalue] */
+p[class~="my"]{
+    color: white;
+} */
+
+Basic Selectors Ends Here */
     
 
-  
+
+
+
